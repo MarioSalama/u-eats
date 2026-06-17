@@ -21,7 +21,7 @@ UE_GREEN  = "#06C167"
 UE_BLACK  = "#000000"
 UE_WHITE  = "#FFFFFF"
 
-FONT_DIR = Path(__file__).parent / "fonts"
+FONT_DIR = Path(__file__).parent / "fonts" / "UberMove_English" / "TTF"
 def _font_b64(path):
     return base64.b64encode(path.read_bytes()).decode()
 
