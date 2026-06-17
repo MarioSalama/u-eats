@@ -115,7 +115,8 @@ UE_BOROUGH_COLORS = {
 DATA_DIR  = Path(__file__).parent / "data"
 REST_CSV  = DATA_DIR / "Open_Restaurants_Inspections_20260611.csv"
 CENSUS_CSV= DATA_DIR / "DECENNIALDHC2020.P1-Data.csv"
-SHP_PATH  = DATA_DIR / "tl_2020_us_zcta520" / "tl_2020_us_zcta520.shp"
+# SHP_PATH  = DATA_DIR / "tl_2020_us_zcta520" / "tl_2020_us_zcta520.shp"
+SHP_PATH   = DATA_DIR / "tl_2020_us_zcta520_nyc" / "tl_2020_us_zcta520_nyc.shp"
 
 # ── Sidebar ────────────────────────────────────────────────────────────────────
 st.sidebar.title("⚙️ Model Assumptions")
